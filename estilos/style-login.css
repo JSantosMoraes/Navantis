@@ -12,12 +12,13 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
     overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.container-principal {
-    width: 80vw;
-    height: 70vh;
-    margin: 15vh auto;
+    width: 40vw;
+    height: 75vh;
+    margin: 10vh 50vw;
 
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -25,4 +26,33 @@ div.container-principal {
     border-radius: 15px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    border: 5px dotted red;
+}
+
+div > h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+    border: 2px dotted;
+}
+
+div > form > p {
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px auto;
+
+    border: 2px dotted black;
+}
+
+div > form > p > input {
+    width: 225px;
+    height: 20px;
+    border-radius: 2px;
+    margin: 0px 20px;
+
+    border: 3px dotted green;
 }
