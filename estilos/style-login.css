@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-image: url('/midia/navio.jpeg');
+    background-image: url('../midia/navio.jpeg');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
